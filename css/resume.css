@@ -445,7 +445,7 @@ progress {
     }
 
     .skilogo img {
-        width: 40px;
+        width: 60px;
     }
 
     #Skills h1 {
@@ -454,6 +454,7 @@ progress {
         font-size: 28px;
         padding-bottom: 2%;
     }
+
 
     .skiname {
         font-family: sans-serif;
