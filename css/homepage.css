@@ -142,6 +142,8 @@ html {
 }
 
 @media only screen and (max-width: 900px) {
+
+
     #menu a {
         color: #020202;
         padding: 35px 12px;
@@ -169,4 +171,16 @@ html {
         top: 60%;
         left: 28%;
     }
+}
+
+@media only screen and (max-width: 600px) {
+    #logo img {
+        height: 60px;
+    }
+
+    .picture img {
+        width: 100%;
+
+    }
+
 }

@@ -208,3 +208,25 @@ html {
         font-family: sans-serif;
     }
 }
+
+
+@media only screen and (max-width: 600px) {
+    #logo img {
+        height: 60px;
+
+    }
+
+    #menu a {
+        color: #020202;
+        padding: 35px 12px;
+        display: flex;
+        flex-direction: row;
+        font-size: 18px;
+        font-family: sans-serif;
+        text-decoration: solid;
+    }
+
+    .piclink img {
+        width: 30px;
+    }
+}
