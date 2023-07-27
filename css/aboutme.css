@@ -185,6 +185,10 @@ html {
         margin-top: 40%;
     }
 
+    #pictureaboutme {
+        margin-top: 45%;
+    }
+
     #pictureaboutme img {
         border-radius: 25px;
         width: 100%;
@@ -198,7 +202,7 @@ html {
     }
 
     .pbold {
-        width: 25%;
+        width: 45%;
         font-size: 3.5vw;
         font-weight: bold;
         font-family: sans-serif;
@@ -229,5 +233,30 @@ html {
 
     .piclink img {
         width: 30px;
+    }
+
+    #righttopaboutme h1 {
+        font-weight: bold;
+        font-family: sans-serif;
+        font-size: 6vw;
+    }
+
+    #righttopaboutme p {
+        font-family: sans-serif;
+        text-align: justify;
+        font-size: 3.6vw;
+        width: 100%;
+    }
+
+    .pbold {
+        width: 45%;
+        font-size: 4vw;
+        font-weight: bold;
+        font-family: sans-serif;
+    }
+
+    .pnormal {
+        font-size: 3.5vw;
+        font-family: sans-serif;
     }
 }
