@@ -39,7 +39,7 @@ html {
     flex-direction: row;
     font-size: 24px;
     font-family: sans-serif;
-    text-decoration: solid;
+    text-decoration: none;
 }
 
 #menu a:hover {
@@ -71,7 +71,7 @@ html {
     display: flex;
     font-size: 28px;
     font-family: sans-serif;
-    text-decoration: solid;
+    text-decoration: none;
 }
 
 #navbarSection a:hover {
@@ -236,10 +236,7 @@ progress {
     }
 
     #navbarSection {
-        padding-left: 5%;
-        overflow: hidden;
-        position: fixed;
-        top: 45%;
+        display: none;
     }
 
     #logo {
@@ -259,40 +256,30 @@ progress {
         padding: 35px 12px;
         display: flex;
         flex-direction: row;
-        font-size: 2.5vh;
+        font-size: 24px;
         font-family: sans-serif;
-        text-decoration: solid;
+        text-decoration: none;
     }
 
-    #navbarSection a {
-        order: 3;
-        color: #020202;
-        padding: 5px 5px;
-        display: flex;
-        font-size: 20px;
-        font-family: sans-serif;
-        text-decoration: solid;
-    }
+
 
     #Education {
-        width: 50%;
-        padding-left: 33%;
+        width: 70%;
+        padding-left: 25%;
         padding-top: 20%;
     }
 
     #Experience {
-        width: 50%;
-        padding-left: 33%;
+        width: 70%;
+        padding-left: 25%;
         padding-top: 20%;
         /* height: 100vh; */
     }
 
     #Skills {
-        width: 50%;
-        padding-left: 33%;
+        width: 70%;
+        padding-left: 25%;
         padding-top: 20%;
-        display: flex;
-        flex-wrap: wrap;
         height: auto;
     }
 
@@ -302,7 +289,7 @@ progress {
     }
 
     .skilist {
-        width: 100%;
+        width: 50%;
     }
 
     #skillpic {
@@ -315,40 +302,24 @@ progress {
 
 @media only screen and (max-width: 900px) {
 
-    #navbarSection a {
-        order: 3;
-        color: #020202;
-        padding: 5px 5px;
-        display: flex;
-        font-size: 16px;
-        font-family: sans-serif;
-        text-decoration: solid;
-    }
 
-    #navbarSection {
-        padding-left: 5%;
-        overflow: hidden;
-        position: fixed;
-        top: 45%;
-    }
 
     #Education {
-        width: 50%;
-        padding-left: 33%;
+        width: 70%;
+        padding-left: 15%;
         padding-top: 30%;
     }
 
 
     #Experience {
-        width: 50%;
-        padding-left: 33%;
+        width: 70%;
+        padding-left: 15%;
         padding-top: 30%;
-        /* height: 100vh; */
     }
 
     #Skills {
-        width: 50%;
-        padding-left: 33%;
+        width: 70%;
+        padding-left: 15%;
         padding-top: 30%;
         display: flex;
         flex-wrap: wrap;
@@ -382,26 +353,19 @@ progress {
 
     #menu a {
         color: #020202;
-        padding: 35px 12px;
+        padding: 30px 5px;
         display: flex;
         flex-direction: row;
-        font-size: 18px;
+        font-size: 16px;
         font-family: sans-serif;
-        text-decoration: solid;
+        text-decoration: none;
     }
 
-
-    #navbarSection {
-        padding-left: 2%;
-        overflow: hidden;
-        position: fixed;
-        top: 45%;
-    }
 
     #Education {
-        width: 50%;
-        padding-left: 33%;
-        padding-top: 55%;
+        width: 70%;
+        padding-left: 15%;
+        padding-top: 45%;
     }
 
     #Education h1 {
@@ -439,9 +403,9 @@ progress {
     }
 
     #Experience {
-        width: 50%;
-        padding-left: 33%;
-        padding-top: 55%;
+        width: 70%;
+        padding-left: 15%;
+        padding-top: 45%;
     }
 
     #Experience h1 {
@@ -471,13 +435,13 @@ progress {
     }
 
     #Skills {
-        width: 50%;
-        padding-left: 33%;
-        padding-top: 55%;
+        width: 70%;
+        padding-left: 15%;
+        padding-top: 45%;
     }
 
     .skilogo {
-        padding-right: 4%;
+        padding-right: 2%;
     }
 
     .skilogo img {
@@ -507,11 +471,11 @@ progress {
     }
 
     #skillpic {
-        padding-left: 20%;
+        padding-left: 2%;
     }
 
     .skipic1 img {
-        width: 200px;
+        width: 250px;
     }
 
     .skipic2 img {

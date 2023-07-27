@@ -38,7 +38,7 @@ html {
     flex-direction: row;
     font-size: 24px;
     font-family: sans-serif;
-    text-decoration: solid;
+    text-decoration: none;
 }
 
 #menu a:hover {
@@ -71,7 +71,7 @@ html {
     display: flex;
     font-size: 28px;
     font-family: sans-serif;
-    text-decoration: solid;
+    text-decoration: none;
 }
 
 #navbarSection a:hover {
@@ -206,10 +206,7 @@ html {
 @media only screen and (max-width: 1500px) {
 
     #navbarSection {
-        padding-left: 5%;
-        overflow: hidden;
-        position: fixed;
-        top: 40%;
+        display: none;
     }
 
     .top {
@@ -236,31 +233,15 @@ html {
         padding: 35px 12px;
         display: flex;
         flex-direction: row;
-        font-size: 2.5vh;
-        font-family: sans-serif;
-        text-decoration: solid;
-    }
-
-    #navbarSection {
-        padding-left: 5%;
-        overflow: hidden;
-        position: fixed;
-        top: 30%;
-    }
-
-    #navbarSection a {
-        order: 2;
-        color: #020202;
-        padding: 5px 5px;
-        display: flex;
         font-size: 24px;
         font-family: sans-serif;
-        text-decoration: solid;
+        text-decoration: none;
     }
+
 
     #OrderingProgram {
         width: 70%;
-        padding-left: 35%;
+        padding-left: 25%;
         padding-top: 20%;
         height: auto;
     }
@@ -287,7 +268,7 @@ html {
 
     #MobileApplication {
         width: 70%;
-        padding-left: 35%;
+        padding-left: 25%;
         padding-top: 20%;
         height: auto;
     }
@@ -314,26 +295,10 @@ html {
 
 @media only screen and (max-width: 900px) {
 
-    #navbarSection {
-        padding-left: 5%;
-        overflow: hidden;
-        position: fixed;
-        top: 45%;
-    }
-
-    #navbarSection a {
-        order: 2;
-        color: #020202;
-        padding: 5px 5px;
-        display: flex;
-        font-size: 16px;
-        font-family: sans-serif;
-        text-decoration: solid;
-    }
 
     #OrderingProgram {
         width: 70%;
-        padding-left: 35%;
+        padding-left: 25%;
         padding-top: 30%;
         height: auto;
     }
@@ -369,7 +334,7 @@ html {
 
     #MobileApplication {
         width: 70%;
-        padding-left: 35%;
+        padding-left: 25%;
         padding-top: 30%;
         height: auto;
     }
@@ -420,37 +385,19 @@ html {
 
     #menu a {
         color: #020202;
-        padding: 35px 12px;
+        padding: 30px 5px;
         display: flex;
         flex-direction: row;
-        font-size: 18px;
+        font-size: 16px;
         font-family: sans-serif;
-        text-decoration: solid;
-    }
-
-
-    #navbarSection {
-        padding-left: 2%;
-        overflow: hidden;
-        position: fixed;
-        top: 45%;
-        width: 25%;
-    }
-
-    #navbarSection a {
-        color: #020202;
-        padding: 5px 5px;
-        display: flex;
-        font-size: 14px;
-        font-family: sans-serif;
-        text-decoration: solid;
+        text-decoration: none;
     }
 
 
     #OrderingProgram {
-        width: 50%;
-        padding-left: 40%;
-        padding-top: 55%;
+        width: 70%;
+        padding-left: 25%;
+        padding-top: 45%;
     }
 
     #OrderingProgram h1 {
@@ -495,9 +442,9 @@ html {
     }
 
     #MobileApplication {
-        width: 50%;
-        padding-left: 40%;
-        padding-top: 55%;
+        width: 70%;
+        padding-left: 25%;
+        padding-top: 45%;
     }
 
     #MobileApplication h1 {

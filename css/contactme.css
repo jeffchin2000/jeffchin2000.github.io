@@ -36,7 +36,7 @@ html {
     flex-direction: row;
     font-size: 24px;
     font-family: sans-serif;
-    text-decoration: solid;
+    text-decoration: none;
 }
 
 #menu a:hover {
@@ -144,7 +144,7 @@ html {
     display: flex;
     font-size: 24px;
     font-family: sans-serif;
-    text-decoration: solid;
+    text-decoration: none;
 }
 
 #footer2 a:hover {
@@ -183,9 +183,9 @@ html {
         padding: 35px 12px;
         display: flex;
         flex-direction: row;
-        font-size: 2.5vh;
+        font-size: 24px;
         font-family: sans-serif;
-        text-decoration: solid;
+        text-decoration: none;
     }
 
     #contactdetail {
@@ -237,12 +237,12 @@ html {
 
     #menu a {
         color: #020202;
-        padding: 35px 12px;
+        padding: 30px 5px;
         display: flex;
         flex-direction: row;
-        font-size: 18px;
+        font-size: 16px;
         font-family: sans-serif;
-        text-decoration: solid;
+        text-decoration: none;
     }
 
     #contactdetailhead h1 {
@@ -270,14 +270,15 @@ html {
     }
 
     #contactdetail div {
-        width: 50%;
+        width: 60%;
         padding: 1%;
         margin: 5%;
     }
 
     #bot {
         padding-right: 2%;
-
+        display: flex;
+        flex-wrap: wrap;
     }
 
     #footer1 p {
@@ -296,7 +297,17 @@ html {
         display: flex;
         font-size: 16px;
         font-family: sans-serif;
-        text-decoration: solid;
+        text-decoration: none;
+    }
+
+    #footer1 {
+        width: 40%;
+
+    }
+
+    #footer3 {
+        width: 50%;
+        margin-right: 5%;
     }
 
     #footer3 p {
